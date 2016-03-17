@@ -1,3 +1,4 @@
+<<<<<<< 7d22eca7e81c732e9dd7baa51d65bbb2e264d707
 # Logs
 logs
 *.log
@@ -31,3 +32,12 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+=======
+node_modules/
+bower_components/
+coverage/
+.sass-cache/
+.idea/
+.tmp/
+dist/
+>>>>>>> Initial Project and add type script compiler
