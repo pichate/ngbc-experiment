@@ -6,7 +6,7 @@ var conf = require('./conf');
 var ts = require('gulp-typescript');
 
 gulp.task('ts-compile', function () {
-    return gulp.src(path.join(conf.paths.src, 'tsc/**/*.ts'))
+    return gulp.src(path.join(conf.paths.src, '/**/*.ts'))
         .pipe(ts({
             noImplicitAny: true,
             target: 'es5'

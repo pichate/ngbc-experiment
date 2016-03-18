@@ -35,7 +35,7 @@ gulp.task('watch', ['markups', 'inject', 'ts-compile'], function () {
 
   gulp.watch(path.join(conf.paths.src, '/app/**/*.jade'), ['markups']);
 
-  gulp.watch(path.join(conf.paths.src, '/tsc/**/*.ts'), ['ts-compile']);
+  gulp.watch(path.join(conf.paths.src, '/**/*.ts'), ['ts-compile']);
 
   gulp.watch(path.join(conf.paths.src, '/app/**/*.html'), function(event) {
     browserSync.reload(event.path);
